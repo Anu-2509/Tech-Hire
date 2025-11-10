@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(186, 179, 179);
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+/* Card Styling */
+.cart {
+  width: 280px;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.cart:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Top Section */
+.cart #top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+#top button {
+  background-color: rgb(31, 161, 31);
+  color: #fff;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#top button:hover {
+  background-color: rgb(24, 129, 24);
+}
+
+/* Image */
+.cart img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-top: 10px;
+}
+
+/* Text Sections */
+.name {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #222;
+}
+
+.prof {
+  font-weight: 400;
+  font-size: 15px;
+  color: #666;
+}
+
+.com {
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 0 10px;
+}
+
+.skills h4,
+.skills h5 {
+  font-size: 13px;
+  padding: 4px 12px;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.skills h4 {
+  border: 1px solid #333;
+  color: #333;
+}
+
+.skills h5 {
+  background-color: rgb(0, 162, 255);
+  color: #fff;
+  border: 1px solid rgb(0, 162, 255);
+}
+
+/* Description */
+.cart p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  padding: 0 20px;
+  min-height: 40px;
+}
+
+/* Bottom Button */
+.cart > button {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-top: 1px solid rgb(230, 230, 230);
+  font-size: 15px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #333;
+  transition: all 0.3s ease;
+  border-radius: 0 0 12px 12px;
+  cursor: pointer;
+}
+
+.cart > button:hover {
+  background-color: rgb(0, 162, 255);
+  color: #fff;
+}
+
