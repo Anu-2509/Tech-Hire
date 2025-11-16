@@ -95,8 +95,8 @@ const users = [
     profession: "AI Engineer",
     fees: 130,
     company: "Ironheart Labs",
-    skills: ["AI", "ML", "Deep Learning", "Python", "JavaScript", "Circuit Design", "Cloud Services"],
-    description: "Young genius continuing the Iron legacy.",
+    skills: ["Deep Learning", "Circuit Design", "AI", "ML", "Python", "JavaScript",  "Cloud Services"],
+    description: "Young genius continuing the Iron legacy. Stark tech with multiverse ",
     profilePhoto: "https://th.bing.com/th/id/OIP.pnIze3pp9v9lsdTTUaN2xgHaHa?w=175&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7"
   },
   {
